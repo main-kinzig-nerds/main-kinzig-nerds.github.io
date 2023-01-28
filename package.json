@@ -10,5 +10,8 @@
   "scripts": {
     "develop": "parcel src/index.html",
     "build": "rm -rf dist && parcel build src/index.html"
+  },
+  "volta": {
+    "node": "18.13.0"
   }
 }
